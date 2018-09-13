@@ -2,8 +2,8 @@ type: m
 empty: false
 
 manager:
-    address: 127.0.0.1:4009
-    password: '123456'
+    address: 127.0.0.1:4001
+    password: 'WewA8CDDEijXNSir'
 
 plugins:
     flowSaver:
@@ -32,9 +32,9 @@ plugins:
                 price: 120
                 flow: 200000000000
     email:
-        use: true
+        use: false
         username: 'mmmwhy@hotmail.com'
-        password: 'Lyyc.12345'
+        password: 'LLyyc.12345'
         host: 'smtp-mail.outlook.com'
         port: 587
         
@@ -53,4 +53,8 @@ plugins:
         alipayPublicKey: ''
         gatewayUrl: 'https://openapi.alipay.com/gateway.do'
 
-db: 'webgui.sqlite'
+db:
+  host: '127.0.0.1'
+  user: ss'
+  password: 'WewA8CDDEijXNSir'
+  database: 'ss'
