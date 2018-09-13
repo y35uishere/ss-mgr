@@ -4,5 +4,9 @@ shadowsocks:
   address: 127.0.0.1:4000
 manager:
   address: 0.0.0.0:4009
-  password: '123456'
-db: 'ss.sqlite'
+  password: 'WewA8CDDEijXNSir'
+db:
+  host: '127.0.0.1'
+  user: 'ss'
+  password: 'WewA8CDDEijXNSir'
+  database: 'ss'
