@@ -93,14 +93,14 @@ install_ss_mgr(){
 ss_mgr_s(){
 	install_ss_mgr
 	mkdir /root/.ssmgr
-	wget -N -P  /root/.ssmgr/ https://raw.githubusercontent.com/mmmwhy/ss-mgr/master/ss.yml
+	wget -N -P  /root/.ssmgr/ https://raw.githubusercontent.com/y35uishere/ss-mgr/master/ss.yml
 	cd /root/shadowsocks-manager/
 	screen -dmS ss node server.js -c /root/.ssmgr/ss.yml
 }
 ss_mgr_m(){
 	ss_mgr_s
 	cd /root/shadowsocks-manager/
-	wget -N -P  /root/.ssmgr/ https://raw.githubusercontent.com/mmmwhy/ss-mgr/master/webgui.yml
+	wget -N -P  /root/.ssmgr/ https://raw.githubusercontent.com/y35uishere/ss-mgr/master/webgui.yml
 	sed -i "s#127.0.0.1#${IPAddress}#g" /root/.ssmgr/webgui.yml
 	screen -dmS webgui node server.js -c /root/.ssmgr/webgui.yml
 }
