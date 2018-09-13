@@ -2,7 +2,7 @@ type: m
 empty: false
 
 manager:
-    address: 127.0.0.1:4001
+    address: 127.0.0.1:4009
     password: 'WewA8CDDEijXNSir'
 
 plugins:
@@ -55,6 +55,6 @@ plugins:
 
 db:
   host: '127.0.0.1'
-  user: ss'
+  user: 'ss'
   password: 'WewA8CDDEijXNSir'
   database: 'ss'
